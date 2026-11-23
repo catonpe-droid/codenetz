@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://codenetz.cc.cd/</loc></url>
-<url><loc>https://codenetz.cc.cd/services.html</loc></url>
-<url><loc>https://codenetz.cc.cd/solutions.html</loc></url>
-<url><loc>https://codenetz.cc.cd/work.html</loc></url>
-<url><loc>https://codenetz.cc.cd/about.html</loc></url>
-<url><loc>https://codenetz.cc.cd/contact.html</loc></url>
-<url><loc>https://codenetz.cc.cd/privacy.html</loc></url>
-<url><loc>https://codenetz.cc.cd/terms.html</loc></url>
+  <url><loc>https://codenetz.cc.cd/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/services.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/solutions.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/work.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/about.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/contact.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/custom-software-development.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/website-development.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/business-dashboard-development.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/mobile-app-development.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/software-company-aurangabad.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/global-software-services.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/privacy.html</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://codenetz.cc.cd/terms.html</loc><lastmod>2026-11-23</lastmod></url>
 </urlset>
