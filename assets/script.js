@@ -40,4 +40,34 @@
     if(status){status.classList.add('show');status.textContent='Your email app should open with the enquiry ready. Please press Send there. If it does not open, email codenetztech@gmail.com directly.';}
     window.location.href=mailto;
   });}
+}
+  // Help visitors preselect a service and prepare an enquiry via WhatsApp.
+  const requestedService=new URLSearchParams(window.location.search).get('service');
+  const serviceSelect=document.getElementById('service');
+  if(serviceSelect&&requestedService){
+    const option=[...serviceSelect.options].find(o=>o.textContent.trim()===requestedService);
+    if(option) serviceSelect.value=option.value;
+  }
+  const whatsappButton=document.getElementById('send-whatsapp');
+  if(whatsappButton&&form){
+    whatsappButton.addEventListener('click',()=>{
+      if(!form.reportValidity())return;
+      if(form.elements['website-extra']?.value)return;
+      const name=form.elements['name'].value.trim();
+      const email=form.elements['email'].value.trim();
+      const phone=form.elements['phone'].value.trim();
+      const service=form.elements['service'].value.trim();
+      const message=form.elements['message'].value.trim();
+      if(!name||!email||!service||!message)return;
+      const textMessage=[
+        'Hello CodeNetz, I would like to discuss a project.',
+        '', 'Name: '+name,'Email: '+email,
+        'Phone: '+(phone||'Not provided'), 'Service: '+service,
+        '', 'Project details:',message
+      ].join('\n');
+      window.open('https://wa.me/918007773888?text='+encodeURIComponent(textMessage),'_blank','noopener,noreferrer');
+      const status=document.getElementById('form-status');
+      if(status){status.classList.add('show');status.textContent='WhatsApp should open with your enquiry. Please tap Send to deliver it.';}
+    });
+  }
 })();
